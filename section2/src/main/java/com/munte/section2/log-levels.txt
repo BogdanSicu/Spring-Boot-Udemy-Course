@@ -1,0 +1,10 @@
+The one above prints everything the ones below do and more (ex: debug prints info, warning and error and more)
+
+trace -> logs everything
+
+debug -> more than info
+info -> log info level
+warning -> a little bit more info than error
+error -> logs only errors and exceptions
+
+off -> logs nothing
