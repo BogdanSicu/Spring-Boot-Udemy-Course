@@ -14,4 +14,4 @@ Spring Boot version - 3.3.0
 - an older version of the "view" from MVC is the .jsp file -> this can be sent if we use @Controller instead of @RestController and also if we don't have a @RequestBody added to the endpoint
 - getting a better understanging on how to work with .jsp files and how to bind variables with them
 - jsp.jstl tags can be used for formating data inside the jsp file (it provides the same functionality as the directives from Angular, ex: ngFor -> for jp will be c:forEach). Before using this, we need to add the dependency inside pom.xml
-- adding css files works just how it does with .html files, by adding a <link href=""> trag a the top of the .jsp file
+- adding css files works just how it does with .html files, by adding a "<link href="">" tag a the top of the .jsp file
