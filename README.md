@@ -1,8 +1,10 @@
 # Spring-Boot-Udemy-Course
 
-Udemy course link - https://www.udemy.com/course/spring-boot-tutorial-for-beginners/?couponCode=OF52424
-Java version - 22
-Spring Boot version - 3.3.0
+- Udemy course link - https://www.udemy.com/course/spring-boot-tutorial-for-beginners/?couponCode=OF52424
+- Java version - 22
+- Spring Boot version - 3.3.0
+- Git course link - https://github.com/in28minutes/spring-boot-master-class
+- Git section 3 link - https://github.com/in28minutes/spring-boot-master-class/tree/master/02.Spring-Boot-Web-Application-V2
 
 ## Things learned:
 ### Section 2
