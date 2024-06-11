@@ -12,3 +12,4 @@ Spring Boot version - 3.3.0
 
 ### Section 3
 - an older version of the "view" from MVC is the .jsp file -> this can be sent if we use @Controller instead of @RestController and also if we don't have a @RequestBody added to the endpoint
+- getting a better understanging on how to work with .jsp files and how to bind variables with them
