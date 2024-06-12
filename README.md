@@ -19,3 +19,4 @@
 - adding css files works just how it does with .html files, by adding a link href="" tag a the top of the .jsp file
 - it is possible to use boostrap in .jsp as well just like with the .html files
 - link for jsp form tags - https://www.javatpoint.com/spring-mvc-form-tag-library
+- in order to call another request from the controller you have to use "redirect:" before the request that is called
