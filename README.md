@@ -1,8 +1,10 @@
 # Spring-Boot-Udemy-Course
 
-Udemy course link - https://www.udemy.com/course/spring-boot-tutorial-for-beginners/?couponCode=OF52424
-Java version - 22
-Spring Boot version - 3.3.0
+- Udemy course link - https://www.udemy.com/course/spring-boot-tutorial-for-beginners/?couponCode=OF52424
+- Java version - 22
+- Spring Boot version - 3.3.0
+- Git course link - https://github.com/in28minutes/spring-boot-master-class
+- Git section 3 link - https://github.com/in28minutes/spring-boot-master-class/tree/master/02.Spring-Boot-Web-Application-V2
 
 ## Things learned:
 ### Section 2
@@ -13,3 +15,6 @@ Spring Boot version - 3.3.0
 ### Section 3
 - an older version of the "view" from MVC is the .jsp file -> this can be sent if we use @Controller instead of @RestController and also if we don't have a @RequestBody added to the endpoint
 - getting a better understanging on how to work with .jsp files and how to bind variables with them
+- jsp.jstl tags can be used for formating data inside the jsp file (it provides the same functionality as the directives from Angular, ex: ngFor -> for jp will be c:forEach). Before using this, we need to add the dependency inside pom.xml
+- adding css files works just how it does with .html files, by adding a link href="" tag a the top of the .jsp file
+- it is possible to use boostrap in .jsp as well just like with the .html files
