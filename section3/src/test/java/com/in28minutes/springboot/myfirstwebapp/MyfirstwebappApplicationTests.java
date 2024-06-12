@@ -1,10 +1,10 @@
-package com.munte.section3;
+package com.in28minutes.springboot.myfirstwebapp;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Section3ApplicationTests {
+class MyfirstwebappApplicationTests {
 
 	@Test
 	void contextLoads() {
