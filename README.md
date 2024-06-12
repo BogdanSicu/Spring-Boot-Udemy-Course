@@ -20,4 +20,5 @@
 - it is possible to use boostrap in .jsp as well just like with the .html files
 - link for jsp form tags - https://www.javatpoint.com/spring-mvc-form-tag-library
 - in order to call another request from the controller you have to use "redirect:" before the request that is called
-- .jspf files -> fragments 
+- .jspf files -> fragments
+- Spring Security -> for storing user data (ex: password) we can use a database or LDAP
