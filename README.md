@@ -18,3 +18,4 @@
 - jsp.jstl tags can be used for formating data inside the jsp file (it provides the same functionality as the directives from Angular, ex: ngFor -> for jp will be c:forEach). Before using this, we need to add the dependency inside pom.xml
 - adding css files works just how it does with .html files, by adding a link href="" tag a the top of the .jsp file
 - it is possible to use boostrap in .jsp as well just like with the .html files
+- link for jsp form tags - https://www.javatpoint.com/spring-mvc-form-tag-library
