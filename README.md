@@ -28,15 +28,15 @@
 - some dependencies have more dependencies -> in ordser to see all of them we can check the "effective pom"
 - MVN commands
   - mvn --version
-  - mvn compile -> compile source files;
-  - mvn test-compile -> compile source files and test files;
-  - mvn clean -> delete target directory;
-  - mvn test -> run unit tests;
-  - mvn package -> create jar;
-  - mvn help:effective-pom;
-  - mvn depencency:tree;
+  - mvn compile -> compile source files
+  - mvn test-compile -> compile source files and test files
+  - mvn clean -> delete target directory
+  - mvn test -> run unit tests
+  - mvn package -> create jar
+  - mvn help:effective-pom
+  - mvn depencency:tree
 - version scheme -> MAJOR.MINOR.PATCH[-MODIFIER]
-  - Major: significant amount of wakr to upgradede (from 10.0.0 to 11.0.0);
-  - Minor: little to no work to upgrade (from 10.1.0 to 10.2.0);
-  - Patch: no work to upgrade (from 10.5.4 to 10.5.5);
-  - Modifier: optional modifier;
+  - Major: significant amount of wakr to upgradede (from 10.0.0 to 11.0.0)
+  - Minor: little to no work to upgrade (from 10.1.0 to 10.2.0)
+  - Patch: no work to upgrade (from 10.5.4 to 10.5.5)
+  - Modifier: optional modifier
