@@ -22,3 +22,13 @@
 - in order to call another request from the controller you have to use "redirect:" before the request that is called
 - .jspf files -> fragments
 - Spring Security -> for storing user data (ex: password) we can use a database or LDAP
+
+### Section 6 - maven
+- mvn --version
+- mvn compile -> compile source files
+- mvn test-compile -> compile source files and test files
+- mvn clean -> delete target directory
+- mvn test -> run unit tests
+- mvn package -> create jar
+- mvn help:effective-pom
+- mvn depencency:tree
