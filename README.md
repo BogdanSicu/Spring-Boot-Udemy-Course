@@ -43,4 +43,7 @@
 
 ### Section 7 - gradle
 - maven is java specific
-- gradle is cross platform and gradle is also completely programmable 
+- gradle is cross platform and gradle is also completely programmable
+- maven vs gradle:
+  - maven: familiar, simple and restrictive
+  - gradle: faster build times and less verbose
