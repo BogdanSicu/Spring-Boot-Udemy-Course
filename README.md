@@ -40,3 +40,7 @@
   - Minor: little to no work to upgrade (from 10.1.0 to 10.2.0)
   - Patch: no work to upgrade (from 10.5.4 to 10.5.5)
   - Modifier: optional modifier
+
+### Section 7 - gradle
+- maven is java specific
+- gradle is cross platform and gradle is also completely programmable 
