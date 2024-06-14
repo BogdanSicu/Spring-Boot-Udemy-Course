@@ -24,6 +24,8 @@
 - Spring Security -> for storing user data (ex: password) we can use a database or LDAP
 
 ### Section 6 - maven
+- pom.xml is where all the project dependencies are specified -> this dependencies will be downloaded localy
+- some dependencies have more dependencies -> in ordser to see all of them we can check the "effective pom"
 - mvn --version
 - mvn compile -> compile source files
 - mvn test-compile -> compile source files and test files
