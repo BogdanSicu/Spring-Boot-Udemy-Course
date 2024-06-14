@@ -45,5 +45,10 @@
 - maven is java specific
 - gradle is cross platform and gradle is also completely programmable
 - maven vs gradle:
-  - maven: familiar, simple and restrictive
-  - gradle: faster build times and less verbose (also, it is still evolving as it doesn't have the same maturity as maven)
+  - maven:
+    - familiar, simple and restrictive
+    - if the builds are simple, stick with maven
+  - gradle:
+    - faster build times and less verbose
+    - it is still evolving as it doesn't have the same maturity as maven
+    - if the builds are taking too long, Gradle is a good option
