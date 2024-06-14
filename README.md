@@ -27,7 +27,7 @@
 - pom.xml is where all the project dependencies are specified -> this dependencies will be downloaded localy
 - some dependencies have more dependencies -> in ordser to see all of them we can check the "effective pom"
 - MVN commands
-  > mvn --version;
+  -> mvn --version;
   > mvn compile -> compile source files;
   > mvn test-compile -> compile source files and test files;
   > mvn clean -> delete target directory;
