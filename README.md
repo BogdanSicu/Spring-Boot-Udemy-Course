@@ -56,3 +56,9 @@
    
 ### Section 8 - REST API
 - at section 3 we've learned about api and how we need to use @ResponseBody on any endpoint that doesn't return a view. As the REST is all about returning resources and not views, instead of using @ResponseBody on all endpoints, we can use @RestController on the controller class (this replaces the old @Controller).
+- http status codes:
+  - Informational responses (100 – 199)
+  - Successful responses (200 – 299)
+  - Redirection messages (300 – 399)
+  - Client error responses (400 – 499)
+  - Server error responses (500 – 599)
