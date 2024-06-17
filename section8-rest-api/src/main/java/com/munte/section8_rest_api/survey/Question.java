@@ -22,7 +22,6 @@ public class Question {
     public String getId() {
         return id;
     }
-
     public String getDescription() {
         return description;
     }
@@ -34,6 +33,11 @@ public class Question {
     public String getCorrectAnswer() {
         return correctAnswer;
     }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
 
     @Override
     public String toString() {

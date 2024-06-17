@@ -2,6 +2,8 @@ package com.munte.section8_rest_api.survey;
 
 import org.springframework.stereotype.Service;
 
+import java.math.BigInteger;
+import java.security.SecureRandom;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -40,5 +42,48 @@ public class SurveyService {
         Optional<Survey> optionalSurvey = surveys.stream().filter(o -> o.getId().equals(searchedId)).findFirst();
 
         return optionalSurvey.orElse(null);
+    }
+
+    public List<Question> retrieveAllSurveyQuestions(String searchedId) {
+        Survey survey = retrieveSurveyById(searchedId);
+
+        if(survey == null) return null;
+
+        return survey.getQuestions();
+    }
+
+    public Question retrieveSpecificSurveyQuestion(String surveyId, String questionId) {
+        Optional<Question> optionalQuestion = retrieveAllSurveyQuestions(surveyId).stream().filter(o -> o.getId().equals(questionId)).findFirst();
+
+        return optionalQuestion.orElse(null);
+    }
+
+    public String addNewSurveyQuestion(String surveyId, Question question) {
+        List<Question> questions = retrieveAllSurveyQuestions(surveyId);
+
+        question.setId(generateRandomId());
+
+        questions.add((question));
+
+        return question.getId();
+    }
+
+    private String generateRandomId() {
+
+        SecureRandom secureRandom = new SecureRandom();
+
+        return new BigInteger(32, secureRandom).toString();
+    }
+
+    public String deleteSurveyQuestion(String surveyId, String questionId) {
+        List<Question> questions = retrieveAllSurveyQuestions(surveyId);
+
+        if(questions == null) return null;
+
+        boolean removed = questions.removeIf(o -> o.getId().equals(questionId));
+
+        if(!removed) return null;
+
+        return questionId;
     }
 }
