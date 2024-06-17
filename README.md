@@ -52,3 +52,6 @@
     - faster build times and less verbose
     - it is still evolving as it doesn't have the same maturity as maven
     - if the builds are taking too long, Gradle is a good option
+   
+### Section 8 - REST API
+- at section 3 we've learned about api and how we need to use @ResponseBody on any endpoint that doesn't return a view. As the REST is all about returning resources and not views, instead of using @ResponseBody on all endpoints, we can use @RestController on the controller class (this replaces the old @Controller).
