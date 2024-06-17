@@ -65,3 +65,4 @@
 - talend api tester is a browser extension that can be used to test requests -> similar to postman, but inside the browser instead of an installed application
 - we can use URI location = UServletUriComponentsBuilder.fromCurrentRequest().path("{myAddedPath}").buildAndExpand(myAddedPath).toUri() in order to send back inside the response header the location of the created resource
 - when we want to test an endpoint, we should use @SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT) -> we shouldn't hard code the port of the endpoint as it may be used by something else
+- JSONassert should be used when comparing 2 jsons because it gives more details on what went wrong and it also ignores white spaces
