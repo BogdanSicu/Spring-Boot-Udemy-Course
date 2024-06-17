@@ -62,3 +62,4 @@
   - Redirection messages (300 – 399)
   - Client error responses (400 – 499)
   - Server error responses (500 – 599)
+- talend api tester is a browser extension that can be used to test requests -> similar to postman, but inside the browser instead of an installed application
