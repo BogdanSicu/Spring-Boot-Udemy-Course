@@ -5,6 +5,7 @@
 - Spring Boot version - 3.3.0
 - Git course link - https://github.com/in28minutes/spring-boot-master-class
 - Git section 3 link - https://github.com/in28minutes/spring-boot-master-class/tree/master/02.Spring-Boot-Web-Application-V2
+- Git section 8 link - https://github.com/in28minutes/spring-boot-master-class/tree/master/05.Spring-Boot-Advanced-V2
 
 ## Things learned:
 ### Section 2
